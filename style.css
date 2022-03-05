@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#navbar{
+  top: 0;
+  position: fixed;
+  background-color: green;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  gap: 0px 0px 0px 0px;
+  justify-content: space-evenly;
+  color: red;
+  font-family: "Merriweather";
+}
+
+.header a{
+  color: #d4ff00;
+}
+
+body{
+  margin: 0px;
+}
+
+#welcome-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Dancing Script" ,  "Merriweather" , sans-serif;
+  font-size: 11vh;
+  background-color: #450c48;
+  color: white;
+  font-weight: 700;
+}
+
+@media (max-width: 600px){
+  #welcome-section{
+  font-size: 7vh;
+  
+  
+}
+}
+
+a{
+  text-decoration: none;
+}
+
+#projects{
+  height: 100vh;
+  display: flex;
+  background-color: #7c547e;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+}
+
+#projects a{
+  color: white;
+  font-size: 20px;
+}
+
+.project-tile{
+  display: flex;
+  flex-direction: column; 
+  padding-left: 8vh;
+}
+@media (max-width: 1000px){
+
+#projects{
+  height: 100vh;
+  display: flex;
+  background-color: #7c547e;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vh;
+}
+.project-tile{
+  padding-left: 3vh;
+  }
+}
+
+
+#links{
+  display: flex;
+  height: 100vh;
+  background-color: #c7b6c8;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vh;
+}
+
+#profile-link{
+  color: #5c5247;
+}
